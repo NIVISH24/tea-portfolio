@@ -1,0 +1,19 @@
+---
+import ThreeDScan from '../components/ThreeDScan.astro';
+---
+
+<style>
+  .text-section {
+    /* Add any specific styles you want for the text section here */
+  }
+</style>
+
+<div class="bg-gradient-to-r from-[#1c2534] to-[#171c30] h-screen flex justify-between items-start p-8">
+  <div class="text-section flex-1 p-8">
+    <h1 class="text-4xl font-bold text-white">About Us</h1>
+    <p class="text-lg text-white mt-4">Welcome to our website. Here is some information about us.</p>
+  </div>
+  <div class="scan-section flex-1 p-8">
+    <ThreeDScan />
+  </div>
+</div>
